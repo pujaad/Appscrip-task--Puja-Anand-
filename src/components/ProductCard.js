@@ -14,7 +14,7 @@ const ProductCard = ({ product }) => {
             <p className={styles.product}><a href="/sign" className={styles.signIn}>Sign in</a>  or create an account to see pricing</p>
             <span onClick={() => setisClick(!isClick)}>
                 {!isClick ? (
-                    <Image src="/heart.png" alt="heart" width={24} height={24} />
+                    <Image src="/heart2.svg" alt="heart" width={24} height={24} />
                 ) : (
                     <Image src="/heart.svg" alt="Favorite" width={24} height={24} />
                 )}
