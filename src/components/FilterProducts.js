@@ -3,8 +3,6 @@
 import { useState } from 'react';
 import styles from "./FilterProducts.module.css";
 import FilterSidebar from "./FilterSidebar";
-import ProductList from './ProductList';
-import ProductCard from './ProductCard';
 
 const FilterProducts = () => {
     const [isVisible, setIsVisible] = useState(true);
@@ -16,11 +14,7 @@ const FilterProducts = () => {
     return (
         <>
             <div className={styles.mainContent}>
-
-                <h2 className={styles.itemCount}> 3425 ITEMS</h2>
                 <h2 className={styles.filtersLabel}>FILTERS</h2>
-
-
                 <button onClick={handleToggleFilter} className={styles.toggleButton}>
                     {isVisible ? "HIDE FILTER" : "SHOW FILTER"}
                 </button>
@@ -33,18 +27,10 @@ const FilterProducts = () => {
                 </select>
             </div>
             <div className={styles.layoutContainer}>
-
                 {isVisible && (
-                    <div className={styles.sidebar} >
-                        <FilterSidebar />
-                    </div>
+                    <FilterSidebar />
                 )}
-                <div className={styles.grid}>
-                    <ProductList />
-                </div>
-
             </div>
-
         </>
     );
 };

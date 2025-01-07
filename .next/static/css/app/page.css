@@ -1,0 +1,321 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/FilterProducts.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.FilterProducts_layoutContainer__nJ4dJ {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.FilterProducts_sidebar__ajZU9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 250px;
+    height: 100vh;
+}
+
+
+.FilterProducts_mainContent__ujJ4X {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.FilterProducts_toggleButton__CgvN_ {
+    padding: 8px 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.FilterProducts_recommend__7FjTH {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.FilterProducts_itemCount__iCfpA {
+    display: block;
+}
+
+.FilterProducts_filtersLabel__aVSTE {
+    font-size: 1rem;
+    margin: 0;
+}
+
+@media(max-width:768px) {
+    .FilterProducts_mainContent__ujJ4X {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .FilterProducts_layoutContainer__nJ4dJ {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .FilterProducts_recommend__7FjTH {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .FilterProducts_toggleButton__CgvN_ {
+        display: none;
+    }
+
+    .FilterProducts_sidebar__ajZU9 {
+        display: none;
+    }
+
+    .FilterProducts_itemCount__iCfpA {
+        display: none;
+    }
+
+    .FilterProducts_filtersLabel__aVSTE {
+        display: block;
+    }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/FilterSidebar.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.FilterSidebar_container__8ob_I {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.FilterSidebar_filterSection__w4CNk {
+    min-width: 250px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 0px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.FilterSidebar_filterSection__w4CNk label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.FilterSidebar_filterSection__w4CNk label:first-child {
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+}
+
+.FilterSidebar_filterSection__w4CNk input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.FilterSidebar_unselect__RdJO9 {
+    cursor: pointer;
+    margin: 8px 0;
+    font-size: 0.9rem;
+}
+
+.FilterSidebar_unselect__RdJO9:hover {
+    text-decoration: underline;
+}
+
+.FilterSidebar_productSection__jK05f {
+    flex: 1 1;
+    min-width: 0; /* Prevents flex item from overflowing */
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .FilterSidebar_container__8ob_I {
+        flex-direction: column;
+    }
+
+    .FilterSidebar_filterSection__w4CNk {
+        width: 100%;
+        min-width: unset;
+    }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/Product.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.Product_productCard__Z1al1 {
+
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Product_productCard__Z1al1:hover {
+    transform: scale(1.05)
+}
+
+.Product_productImage__QwUJw {
+    max-width: 100%;
+    max-height: 350px;
+    padding: 10px;
+}
+
+.Product_productTitle__rf8Rb {
+    font-size: 16px;
+    margin: 10px 0;
+    color: black;
+    padding: 10px
+}
+
+.Product_product__rrDFU {
+    color: lightgray;
+    font-size: small;
+}
+
+.Product_signIn___HQK5 {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media(max-width:768px) {
+    .Product_productCard__Z1al1 {
+        padding: 5px;
+    }
+
+    .Product_productImage__QwUJw {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .Product_productTitle__rf8Rb {
+        font-size: 14px;
+    }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/ProductList.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.ProductList_productgrid__S2x3D {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .ProductList_productgrid__S2x3D {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 10px;
+        padding: 10px;
+    }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/components/Header.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Header_header__MvnS2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #fff;
+    border-bottom: 2px solid #eaeaea;
+}
+
+.Header_leftSection__Pq2vW {
+    display: flex;
+    align-items: center;
+    flex: 1 1;
+}
+
+.Header_logo__j7oID {
+    height: 40px;
+}
+
+.Header_logoHeading__3okRU {
+    flex: 2 1;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+    color: black;
+}
+
+.Header_rightSection__7EQyP {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1 1;
+}
+
+.Header_icons__u6bOw {
+    height: 30px;
+    margin-right: 20px;
+
+}
+
+.Header_navlink__hnFmj {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 20px;
+    color: black;
+    background-color: #fff;
+    border-bottom: 2px solid #eaeaea;
+
+
+}
+
+.Header_navlink__hnFmj a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Header_heading__PIjV6 {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 5px;
+    background-color: #fff;
+    color: black;
+    padding-top: 30px;
+}
+
+.Header_para__g8NmT {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .Header_header__MvnS2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Header_logoHeading__3okRU {
+        font-size: 18px;
+    }
+
+    .Header_navlink__hnFmj {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+}

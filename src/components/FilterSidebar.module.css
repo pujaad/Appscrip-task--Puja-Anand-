@@ -1,42 +1,55 @@
-.filterSection {
-
+.container {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 15px 0;
-    border-bottom: 1px solid #eaeaea;
-    align-items: flex-start;
-    justify-content: left;
-    flex: 1;
-    justify-content: flex-start;
+    gap: 20px;
+    width: 100%;
+}
 
-
-
-
+.filterSection {
+    min-width: 250px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 0px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .filterSection label {
-    font-weight: bold;
-    margin-bottom: 5px;
-
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 500;
 }
 
-.container {
-    width: 250px;
-    height: 100vh;
-    left: 0px;
-    margin-left: 20px;
-    overflow-y: auto;
-    border-right: 1px solid whitesmoke;
-    background-color: white;
-    color: black;
-
+.filterSection label:first-child {
+    font-size: 1.2rem;
+    margin-bottom: 16px;
 }
 
-@media(max-width:768px) {
+.filterSection input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.unselect {
+    cursor: pointer;
+    margin: 8px 0;
+    font-size: 0.9rem;
+}
+
+.unselect:hover {
+    text-decoration: underline;
+}
+
+.productSection {
+    flex: 1;
+    min-width: 0; /* Prevents flex item from overflowing */
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
     .container {
-        width: 100px;
-
+        flex-direction: column;
     }
 
+    .filterSection {
+        width: 100%;
+        min-width: unset;
+    }
 }
